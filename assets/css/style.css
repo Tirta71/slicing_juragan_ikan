@@ -17,13 +17,13 @@ body {
 }
 
 .hero-landing {
-  background-image: url("../img/hero/home_clear.png");
+  background-image: url("https://tirta71.github.io/slicing_juragan_ikan/assets/img/hero/home_clear.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
 .image-lele {
-  background-image: url("../img/hero/lele_image.png");
+  background-image: url("https://tirta71.github.io/slicing_juragan_ikan/assets/img/hero/lele_image.png");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
