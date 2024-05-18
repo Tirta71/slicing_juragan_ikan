@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Juragan Ikan</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div class="logo">
+          <img src="./assets/img/hero/Logo.png" alt="Crown Logo" />
+          <ul class="nav-links">
+            <li><a href="pencatatan.html">Pencatatan</a></li>
+            <li><a href="statistik.html" class="active">Statistik</a></li>
+            <li><a href="panduan.html">Panduan</a></li>
+            <li><a href="artikel.html">Artikel</a></li>
+            <li><a href="forum.html">Forum</a></li>
+          </ul>
+        </div>
+        <button class="menu-toggle">☰</button>
+
+        <div class="nav-icons">
+          <img src="./assets/img/hero/notif_bell.png" alt="Notifications" />
+          <img src="./assets/img/hero/Profile.png" alt="User Profile" />
+        </div>
+      </div>
+    </nav>
+    <section class="hero">
+      <img
+        src="./assets/img/statistik/hero_statistik.png"
+        alt="Statistics Background"
+      />
+      <div class="hero-text">
+        <h1>Statistik</h1>
+      </div>
+    </section>
+
+    <section>
+      <div class="container w-50 mt-5">
+        <div class="title-statistik">
+          <p class="text-center">
+            Pencatatan yang cermat membantu peternak dalam mengambil keputusan
+            tepat untuk meningkatkan produktivitas dan memastikan kesejahteraan
+            ikan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container d-flex justify-content-center mt-5 gap-5 grafik">
+        <div class="grafik_penjualan_ikan">
+          <h1>Grafik Penjualan Ikan</h1>
+          <p>Total Penjualan</p>
+          <canvas id="salesChart"></canvas>
+        </div>
+        <div class="grafik_pengeluaran_pakan">
+          <h1>Grafik Pengeluaran Pakan</h1>
+          <p>Total Pengeluaran</p>
+          <canvas id="feedChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="container d-flex justify-content-center">
+      <div class="finansial">
+        <div class="card-finansial">
+          <div class="title-card">
+            <span style="font-size: 32px">Total Pemasukan</span>
+            <div class="harga">
+              <span> Rp 120.500.000</span>
+            </div>
+          </div>
+          <div class="image-ringkasan">
+            <img src="./assets/img/finansial/finansiaL_1.png" alt="" />
+          </div>
+        </div>
+        <div class="card-finansial">
+          <div class="title-card">
+            <span style="font-size: 32px">Total Pengeluaran</span>
+            <div class="harga">
+              <span> Rp 40.350.000</span>
+            </div>
+          </div>
+          <div class="image-ringkasan">
+            <img src="./assets/img/finansial/finansiaL_1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-5">
+      <div class="footer-container">
+        <ul class="footer-list">
+          <li class="footer-item">Tentang Kami</li>
+          <li class="footer-item">Kebijakan Privasi</li>
+          <li class="footer-item">FAQ</li>
+        </ul>
+
+        <ul class="footer-list">
+          <li class="footer-item">Subscribe Our Newsletter</li>
+          <li class="input-email">
+            <input type="text" placeholder="E-mail" /><button>></button>
+          </li>
+          <li class="sosmed">
+            <ul>
+              <li><img src="./assets/img/sosmed/ig.png" alt="" /></li>
+              <li><img src="./assets/img/sosmed/wa.png" alt="" /></li>
+              <li><img src="./assets/img/sosmed/email.png" alt="" /></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>Copyright © Juragan Ikan 2024. All Rights reserved</p>
+    </div>
+
+    <script src="./assets/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
