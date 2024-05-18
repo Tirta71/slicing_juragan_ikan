@@ -6,7 +6,7 @@ const articles = [
     description:
       "Jika Anda adalah seorang pemula yang ingin memulai peternakan ikan, langkah-langkah berikut ini.",
     imgSrc: "./assets/img/artikel/artikel_1.png",
-    link: "#",
+    link: "detail_artikel.html",
   },
   {
     date: "19",
@@ -15,7 +15,7 @@ const articles = [
     description:
       "Konsumsi ikan secara teratur telah terkait dengan penurunan risiko penyakit jantung.",
     imgSrc: "./assets/img/artikel/artikel_2.png",
-    link: "#",
+    link: "detail_artikel.html",
   },
   {
     date: "24",
@@ -23,7 +23,7 @@ const articles = [
     title: "Teknik Pembenihan Ikan Air Tawar",
     description: "Pembenihan ikan air tawar adalah proses penting.",
     imgSrc: "./assets/img/artikel/artikel_1.png",
-    link: "#",
+    link: "detail_artikel.html",
   },
   {
     date: "28",
@@ -32,7 +32,7 @@ const articles = [
     description:
       "Memilih jumlah ikan yang tepat untuk kolam air tawar Anda adalah langkah penting.",
     imgSrc: "./assets/img/artikel/artikel_4.png",
-    link: "#",
+    link: "detail_artikel.html",
   },
   {
     date: "30",
@@ -41,7 +41,7 @@ const articles = [
     description:
       "Terdapat berbagai jenis metode budidaya ikan air tawar yang dapat Anda pilih. Di sini.",
     imgSrc: "./assets/img/artikel/artikel_5.png",
-    link: "#",
+    link: "detail_artikel.html",
   },
 ];
 
